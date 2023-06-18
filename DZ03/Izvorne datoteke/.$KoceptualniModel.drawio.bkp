@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-06-05T15:53:47.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="GDBO-RETvxKqyt-PS5AR" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2023-06-05T15:55:52.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="g9JoTgznylZrNfpC1ESK" version="21.2.8" type="device">
   <diagram name="Page-1" id="UiO4M5Dz8txSLx4yNdaL">
     <mxGraphModel dx="1036" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
         <mxCell id="cG1MRF9v0c2CSQK8d2A8-37" value="Krvna grupa&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="235" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cG1MRF9v0c2CSQK8d2A8-38" value="Alergije" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cG1MRF9v0c2CSQK8d2A8-38" value="Šifra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="270" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cG1MRF9v0c2CSQK8d2A8-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="cG1MRF9v0c2CSQK8d2A8-29" target="cG1MRF9v0c2CSQK8d2A8-38">
@@ -367,7 +367,7 @@
             <mxPoint x="870" y="402" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cG1MRF9v0c2CSQK8d2A8-103" value="Šifra" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cG1MRF9v0c2CSQK8d2A8-103" value="Naziv lijeka" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="351.58000000000004" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cG1MRF9v0c2CSQK8d2A8-104" value="Opis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">

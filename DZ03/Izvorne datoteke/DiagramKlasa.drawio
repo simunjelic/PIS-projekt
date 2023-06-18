@@ -1,0 +1,124 @@
+<mxfile host="Electron" modified="2023-06-18T17:29:06.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="HjUNy-mqaLq8gZPvDjey" version="21.3.7" type="device">
+  <diagram name="Page-1" id="UiO4M5Dz8txSLx4yNdaL">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-1" target="DDv_lS_n52Z6mB8EMt-c-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-1" value="Liječnik" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-3" value="Ime&lt;br&gt;Prezime&lt;br&gt;Specijalizacija" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-1">
+          <mxGeometry y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-9" value="Rezervacija" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-11" value="Datum" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-9">
+          <mxGeometry y="30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-9">
+          <mxGeometry y="50" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-16" value="otkaziRezervaciju()&lt;br&gt;potvrdiRezervaciju()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-9">
+          <mxGeometry y="58" width="140" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-19" target="DDv_lS_n52Z6mB8EMt-c-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-19" value="Pacijent" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-20" value="Ime&lt;br&gt;Prezime&lt;br&gt;Šifra&lt;br&gt;Osobni podatci" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-19">
+          <mxGeometry y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-23" value="Digitalni Karton" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-24" value="Šifra&lt;br&gt;Krvna grupa&lt;br&gt;Alergije" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-23">
+          <mxGeometry y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-27" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-28" target="DDv_lS_n52Z6mB8EMt-c-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="517" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-28" target="DDv_lS_n52Z6mB8EMt-c-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-28" value="Pregled" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="285" y="365" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-29" value="Šifra&amp;nbsp;&lt;br&gt;Napomene" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-28">
+          <mxGeometry y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-24" target="DDv_lS_n52Z6mB8EMt-c-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-31" value="N&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="395" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-33" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="395" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-34" value="Dijagnoza" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-35" value="Naziv bolesti&lt;br&gt;Opis&lt;br&gt;Dodatak" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-34">
+          <mxGeometry y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-37" value="N&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-38" value="Terapija" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="285" y="560" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-39" value="Šifra&lt;br&gt;Opis&lt;br&gt;Upute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-38">
+          <mxGeometry y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-41" value="N&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="324" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-45" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="595" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-3" target="DDv_lS_n52Z6mB8EMt-c-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-48" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="235" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.994;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DDv_lS_n52Z6mB8EMt-c-20" target="DDv_lS_n52Z6mB8EMt-c-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-50" value="N&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="235" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-51" value="Recept" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-52" value="Šifra&lt;br&gt;Naziv Lijeka&lt;br&gt;Količina&lt;br&gt;Upute&lt;br&gt;Dodatak" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-51">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-51">
+          <mxGeometry y="110" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DDv_lS_n52Z6mB8EMt-c-54" value="recepIzdan()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="DDv_lS_n52Z6mB8EMt-c-51">
+          <mxGeometry y="118" width="140" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
