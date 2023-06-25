@@ -13,7 +13,7 @@
 • dijagram dekompozicije funkcija
 • dijagram toka podataka u tri razine
 
-#DZ03 Specifikacija zahtjeva
+#DZ03 Specifikacija dizajna
 
 • Konceptualni model podataka
 • Logički model podataka
